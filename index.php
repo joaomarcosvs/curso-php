@@ -22,7 +22,7 @@
                 <div class="modulo verde"> <!--FLEX ITEM-->
                     <h3>Módulo 01</h3>
                     <ul>
-                        <li> <a href="#">Exercício A</a></li>
+                        <li> <a href="#">teste de commit A</a></li>
                         <li> <a href="#">Exercício B</a></li>
                         <li> <a href="#">Exercício C</a></li>
                     </ul>

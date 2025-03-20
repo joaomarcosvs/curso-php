@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Curso PHP</title>
 </head>
 
@@ -22,9 +22,23 @@
                 <div class="modulo verde"> <!--FLEX ITEM-->
                     <h3>Módulo 01</h3>
                     <ul>
-                        <li> <a href="exercicio.php?dir=teste&file=teste">Exercício A</a></li>
-                        <li> <a href="#">Exercício B</a></li>
-                        <li> <a href="#">Exercício C</a></li>
+                        <li> 
+                            <a href="exercicio.php?dir=basico&file=ola">
+                                Olá PHP</a>
+                        </li>
+                        <li> 
+                            <a href="exercicio.php?dir=basico&file=html">
+                                Integração HTML</a>
+                        </li>
+                        <li> 
+                            <a href="exercicio.php?dir=basico&file=css">
+                                Integração CSS</a>
+                        </li>
+                        <li> 
+                            <a href="exercicio.php?dir=basico&file=comentarios">
+                                Comentários PHP</a>
+                        </li>
+
                     </ul>
                 </div>
             </nav>

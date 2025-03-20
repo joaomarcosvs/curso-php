@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/exercicio.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/exercicio.css">
     <title>Exercício</title>
 </head>
 
@@ -17,7 +17,7 @@
     </header>
 
     <nav class="navegacao">
-        <a href= <?= "/{$_GET['dir']}/{$_GET['file']}.php" ?> class="verde" > Sem formatação</a>
+        <a href= <?= "{$_GET['dir']}/{$_GET['file']}.php" ?> class="verde" > Sem formatação</a>
         <a href="index.php" class="vermelho"> Voltar</a>
     </nav>
 

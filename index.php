@@ -19,6 +19,7 @@
 
         <div class="conteudo">
             <nav class="modulos"> <!--FLEX CONTAINER-->
+
                 <div class="modulo verde"> <!--FLEX ITEM-->
                     <h3>Básicos</h3>
                     <ul>
@@ -44,6 +45,7 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="modulo vermelho"> <!--FLEX ITEM-->
                     <h3>Tipos</h3>
                     <ul>
@@ -77,6 +79,23 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="modulo azul"> <!--FLEX ITEM-->
+                    <h3>Variáveis</h3>
+                    <ul>
+                        <li> 
+                            <a href="exercicio.php?dir=variaveis&file=basico">
+                                Básico Variaveis</a>
+                        </li>
+                        <li> 
+                            <a href="exercicio.php?dir=variaveis&file=desafio_equacao">
+                                Desafio Equação</a>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+                
             </nav>
         </div>
 

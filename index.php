@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Curso PHP</title>
 </head>
-
 <body>
     <header class="cabecalho">
         <h1>Curso PHP</h1>
         <h2>Índice dos exercicios</h2>
 
     </header>
-
     <main class="principal">
-
         <div class="conteudo">
             <nav class="modulos"> <!--FLEX CONTAINER-->
-
                 <div class="modulo verde"> <!--FLEX ITEM-->
                     <h3>Básicos</h3>
                     <ul>
@@ -45,7 +40,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="modulo vermelho"> <!--FLEX ITEM-->
                     <h3>Tipos</h3>
                     <ul>
@@ -79,7 +73,6 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="modulo azul"> <!--FLEX ITEM-->
                     <h3>Variáveis</h3>
                     <ul>
@@ -91,22 +84,36 @@
                             <a href="exercicio.php?dir=variaveis&file=desafio_equacao">
                                 Desafio Equação</a>
                         </li>
-                        
-                        
+                        <li> 
+                            <a href="exercicio.php?dir=variaveis&file=atribuicoes">
+                                Atribuições</a>
+                        </li>
+                        <li> 
+                            <a href="exercicio.php?dir=variaveis&file=interpolacao">
+                                Interpolação</a>
+                        </li>
+                        <li> 
+                            <a href="exercicio.php?dir=variaveis&file=variaveis_variaveis">
+                                Variaveis variaveis</a>
+                        </li>    
+                        <li> 
+                            <a href="exercicio.php?dir=variaveis&file=desafio_variaveis">
+                                Desafio variaveis</a>
+                        </li>     
+                        <li> 
+                            <a href="exercicio.php?dir=variaveis&file=valor_referencia">
+                                Valor vs Referencia</a>
+                        </li>             
                     </ul>
-                </div>
-                
+                </div>                
             </nav>
         </div>
-
     </main>
-
     <footer class="rodape">
 
         COD3R & ALUNOS @ <?= date('Y'); ?>
 
     </footer>
-
 </body>
 
 </html>

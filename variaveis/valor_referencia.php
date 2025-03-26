@@ -15,8 +15,8 @@ echo "<br>$varValor";
 
 // Referencia  --  funciona parecido com o ponteiro
 
-$varReferencia = &$var;
-$varReferencia = 'mesma referencia';
+$varReferencia = &$var; // var referenca recebe o endereço de var, então tudo que eu mudar em var refencia será mudado para va
+$varReferencia = 'mesma referencia'; 
 
 echo "<br>$var";
 echo "<br>$varReferencia";

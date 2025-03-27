@@ -15,6 +15,16 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos"> <!--FLEX CONTAINER-->
+            <div class="modulo laranja"> <!--FLEX ITEM-->
+                <h3>5. Array</h3>
+                <ul>
+                    <li> 
+                        <a href="exercicio.php?dir=array&file=basico">
+                            Basico de Array</a>
+                    </li>    
+                            
+                </ul>     
+            </div>
             <div class="modulo roxo"> <!--FLEX ITEM-->
                     <h3>4. Estruturas de Controle</h3>
                     <ul>
@@ -41,7 +51,16 @@
                         <li> 
                             <a href="exercicio.php?dir=controle&file=op_ternario">
                                 Op. Ternario</a>
-                        </li>       
+                        </li>   
+                        <li> 
+                            <a href="exercicio.php?dir=controle&file=switch">
+                                Switch</a>
+                        </li> 
+                        <li> 
+                            <a href="exercicio.php?dir=controle&file=desafio_switch">
+                                Desafio Switch</a>
+                        </li>      
+                    </ul>     
                     </ul>
                 </div>
                 <div class="modulo azul"> <!--FLEX ITEM-->

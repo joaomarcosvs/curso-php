@@ -21,8 +21,28 @@
                     <li> 
                         <a href="exercicio.php?dir=array&file=basico">
                             Basico de Array</a>
-                    </li>    
-                            
+                    </li> 
+                    <li> 
+                        <a href="exercicio.php?dir=array&file=mapa">
+                            Mapa</a>
+                    </li>   
+                    <li> 
+                        <a href="exercicio.php?dir=array&file=desafio_indice">
+                            Desafio Index</a>
+                    </li>  
+                    <li> 
+                        <a href="exercicio.php?dir=array&file=desafio_meses">
+                            Desafio Meses</a>
+                    </li>  
+                    <li> 
+                        <a href="exercicio.php?dir=array&file=operacoes">
+                            Operações</a>
+                    </li>  
+                    <li> 
+                        <a href="exercicio.php?dir=array&file=array_multi">
+                            Array Multi</a>
+                    </li>  
+                           
                 </ul>     
             </div>
             <div class="modulo roxo"> <!--FLEX ITEM-->

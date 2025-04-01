@@ -15,6 +15,16 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos"> <!--FLEX CONTAINER-->
+            <div class="modulo verde-escuro"> <!--FLEX ITEM-->
+                    <h3>6. Funções</h3>
+                    <ul>
+                    <li> 
+                        <a href="exercicio.php?dir=funcoes&file=basico">
+                            Basico</a>
+                    </li>
+                    
+                </ul>
+            </div>   
             <div class="modulo laranja"> <!--FLEX ITEM-->
                 <h3>5. Array</h3>
                 <ul>
@@ -42,6 +52,14 @@
                         <a href="exercicio.php?dir=array&file=array_multi">
                             Array Multi</a>
                     </li>  
+                    <li> 
+                        <a href="exercicio.php?dir=array&file=get">
+                            $_GET</a>
+                    </li> 
+                    <li> 
+                        <a href="exercicio.php?dir=array&file=post">
+                            $_POST</a>
+                    </li> 
                            
                 </ul>     
             </div>
